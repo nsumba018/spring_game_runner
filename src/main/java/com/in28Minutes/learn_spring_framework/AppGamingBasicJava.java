@@ -7,9 +7,10 @@ import com.in28Minutes.learn_spring_framework.game.SuperContraGame;
 public class AppGamingBasicJava {
     public static void main(String[] args) {
 
-//        var  marioGame = new MarioGame();
-        var superContrGame = new SuperContraGame();
-        var gameRunner = new GameRunner(superContrGame);
+        //var  game = new MarioGame();
+        //var game = new SuperContraGame();
+        var game = new PacManGame();
+        var gameRunner = new GameRunner(game);
         gameRunner.run();
     }
 }
